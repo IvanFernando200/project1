@@ -15,12 +15,13 @@
   font-size: 2rem;
   color: #fafafad8;
   text-align: center;
+  text-shadow: 4px 4px 10px #000,4px 4px 10px #000,4px 4px 10px #000,4px 4px 10px #000,4px 4px 10px #000,4px 4px 10px #000;
 }
 
 .app__card {
   max-width: 500px;
   margin: 0.3rem;
-  padding: 0.5rem;
+  padding: 1rem;
   border-radius: 0.6em;
   background-color: rgba(184, 15, 15, 0.619);
   height: 13rem;

@@ -19,7 +19,7 @@ function App() {
     <div
       className="app"
       style={{
-        backgroundImage: `url("/image${imageSelected}.avif")`,
+        backgroundImage: `url("/background${imageSelected}.jpg")`,
       }}
     >
       <h1 className="app__title">Quotes About Strength and Hope</h1>
