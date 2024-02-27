@@ -1,0 +1,16 @@
+.card {
+  height: 10rem;
+}
+.card__quote {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.2rem;
+  &::before {
+    content: '"';
+  }
+  &::after {
+    content: '"';
+  }
+}
+.card__cite {
+  font-size: 1rem;
+}
