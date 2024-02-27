@@ -19,16 +19,16 @@ function App() {
     <div
       className="app"
       style={{
-        backgroundImage: `url("/item${imageSelected}.gif")`,
+        backgroundImage: `url("/image${imageSelected}.avif")`,
       }}
     >
       <h1 className="app__title">Quotes About Strength and Hope</h1>
       <div className="app__card">
-      <QuoteCard randomQuote={randomQuote} />
-      <BtnCard
-        setRandomQuote={setRandomQuote}
-        setImageSelected={setImageSelected}
-      />
+        <QuoteCard randomQuote={randomQuote} />
+        <BtnCard
+          setRandomQuote={setRandomQuote}
+          setImageSelected={setImageSelected}
+        />
       </div>
     </div>
   );
